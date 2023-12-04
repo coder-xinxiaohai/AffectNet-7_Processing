@@ -7,5 +7,4 @@
 
 ![image](https://github.com/coder-xinxiaohai/AffectNet-Processing/assets/73678229/67b3a088-e40b-4843-98e9-b5a28a717bb2)
 
-****
 至此，本文件夹的补充内容就完成了，本文件夹旨在存放AffectNet数据集的一些原始信息。
