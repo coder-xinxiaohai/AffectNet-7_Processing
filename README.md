@@ -3,12 +3,12 @@
 
 本项目适用于**AffectNet-7**分类任务的数据集处理，**仅限于裁剪、对齐和数据划分**，并未将所有图像全部缩放至指定大小，须注意。
 
-本项目的代码参考![这里](https://github.com/PanosAntoniadis/emotion-gcn),十分感谢前辈们的工作！
+本项目的代码参考[这里](https://github.com/PanosAntoniadis/emotion-gcn),十分感谢前辈们的工作！
 
 
 **1、数据准备工作**
 
-由于AffectNet数据集并未开源，需要自行申请，具体链接为http://mohammadmahoor.com/affectnet/，申请并下载成功后，须将AffectNet数据集手动标注的图像及标签，放在Manually_Annotated文件下，如下图所示：
+由于AffectNet数据集并未开源，需要自行申请，具体可点[这里](http://mohammadmahoor.com/affectnet/)，申请并下载成功后，须将AffectNet数据集手动标注的图像及标签，放在Manually_Annotated文件下，如下图所示：
 ![image](https://github.com/coder-xinxiaohai/AffectNet-Processing/assets/73678229/c25be5b0-8fee-4cb9-90e3-841f63f09f91)
 
 需要注意的是，截至目前，官方提供的train.csv中有一条记录存在问题，需要大家手动删除后，方可使用。
