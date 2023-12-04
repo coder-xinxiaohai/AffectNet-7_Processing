@@ -3,7 +3,7 @@
 
 本项目适用于**AffectNet-7**分类任务的数据集处理，**仅限于裁剪、对齐和数据划分**，并未将所有图像全部缩放至指定大小，须注意。
 
-本项目的代码参考[这里](https://github.com/PanosAntoniadis/emotion-gcn)，**十分感谢前辈们的工作！**
+本项目的代码参考[这里](https://github.com/PanosAntoniadis/emotion-gcn)和[这里](https://github.com/kaiwang960112/Self-Cure-Network)**十分感谢前辈们的工作！**
 
 
 **1、数据准备工作**
@@ -18,11 +18,16 @@
 
 **2、数据处理部分**
 
-(1) 首先运行pickle_annotations_affectnet.py文件，在result文件夹中生成data_affectnet.pkl文件
+(1) 首先运行pickle_annotations_affectnet.py文件，在result文件夹中生成data_affectnet.pkl文件。
 
 (2) 接着运行sava_crop_imgs_affectnet.py文件，在result/aligned_crop_affectnet_imgs文件夹中生成经裁剪和对齐的AffectNet-7数据集，共287401张图像（283901张训练图像，3500张测试图像）。
 
-(3) 最后运行save_annotatons_affectnet.py文件，在result文件夹中生成train_label.txt和val_label.txt文件
+(3) 最后运行save_annotatons_affectnet.py文件，在result文件夹中生成train_label.txt和val_label.txt文件。
 
 至于dataloading.py、aligner.py和cal_each_category_img_nums.py文件分别用于数据加载、面部对齐和各表情类别的数量统计，如果大家只在意结果，暂时可不用管这几个文件，只需要记住**aligned_crop_affectnet_imgs文件夹中存放了处理后的AffectNet-7数据集，result文件夹中存放了划分好的训练集和验证集的标签信息，即train_label.txt和val_label.txt文件**。
+
+
+**3、为训练标签加噪**
+
+该部分代码在generate_noise_label.py中，运行本文件，即可完成对训练标签的加噪(10%、20%、30%)。
 
