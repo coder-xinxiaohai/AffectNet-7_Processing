@@ -3,7 +3,7 @@
 
 本项目适用于**AffectNet-7**分类任务的数据集处理，**仅限于裁剪、对齐和数据划分**，并未将所有图像全部缩放至指定大小，须注意。
 
-本项目的代码参考[这里](https://github.com/PanosAntoniadis/emotion-gcn)和[这里](https://github.com/kaiwang960112/Self-Cure-Network)**十分感谢前辈们的工作！**
+本项目的代码分别参考[这里](https://github.com/PanosAntoniadis/emotion-gcn)（图像筛选、裁剪及对齐）和[这里](https://github.com/kaiwang960112/Self-Cure-Network)（训练标签加噪）**十分感谢前辈们的工作！** 另外，感谢我同门吴锐同学的帮助！
 
 
 **1、数据准备工作**
@@ -30,4 +30,7 @@
 **3、为训练标签加噪**
 
 该部分代码在generate_noise_label.py中，运行本文件，即可完成对训练标签的加噪(10%、20%、30%)。
+
+
+如果大家在运行本项目的过程中，遇到任何问题，欢迎留言~
 
