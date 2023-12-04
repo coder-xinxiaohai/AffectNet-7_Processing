@@ -1,5 +1,5 @@
-train_file=open('./result/train_lable.txt')
-val_file=open('./result/val_lable.txt')
+train_file=open('./result/train_label.txt')
+val_file=open('./result/val_label.txt')
 
 train_label_info=[]
 for line in train_file:
