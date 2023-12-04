@@ -19,8 +19,8 @@ with open("./result/train_label.txt", "r") as file:
         # random.uniform()用于从在[0,1]的均匀分布中随机采样
         number = random.uniform(0, 1)
         if number <= 0.1:  # 加10%的噪声
-            # if number <= 0.2: # 加20%的噪声
-            # if number <= 0.3: # 加30%的噪声
+        # if number <= 0.2: # 加20%的噪声
+        # if number <= 0.3: # 加30%的噪声
             while (1):
                 # random.randint()用于从[0,6]中随机选择一个整数
                 new_label = random.randint(0, 6)
