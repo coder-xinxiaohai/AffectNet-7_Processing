@@ -3,7 +3,7 @@
 
 本项目适用于**AffectNet-7**分类任务的数据集处理，**仅限于裁剪、对齐和数据划分**，并未将所有图像全部缩放至指定大小，须注意。
 
-本项目的代码参考：https://github.com/PanosAntoniadis/emotion-gcn,十分感谢前辈们的工作！
+本项目的代码参考![这里](https://github.com/PanosAntoniadis/emotion-gcn),十分感谢前辈们的工作！
 
 
 **1、数据准备工作**
