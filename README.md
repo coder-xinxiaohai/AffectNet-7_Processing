@@ -28,7 +28,7 @@
 ****
 **3、为训练标签加噪**
 
-该部分代码在generate_noise_label.py中，运行本文件，即可完成对训练标签的加噪(10%、20%、30%)。
+该部分代码在generate_noise_label.py中，运行本文件，即可完成对训练标签的加噪(10%、20%、30%)，结果存于result文件夹中，分别为0.1noise_train.txt、0.2noise_train.txt和0.3noise_train.txt。
 
 ****
 如果大家在运行本项目的过程中，遇到任何问题，欢迎留言~
