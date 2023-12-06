@@ -1,6 +1,6 @@
 # aligned_crop_affectnet_imgs文件夹说明
 
-**aligned_crop_affectnet_imgs**：用于存放经裁剪和对齐后的287401张面部表情图像，其中283901张用于训练，3500张用于验证。
+**aligned_crop_affectnet_imgs**：用于存放经对齐和裁剪后的287401张面部表情图像，其中283901张用于训练，3500张用于验证。
 ![image](https://github.com/coder-xinxiaohai/AffectNet_Processing/assets/73678229/26d9f8f1-706a-410b-b37e-340a73389553)
 
 
