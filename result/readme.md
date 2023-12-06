@@ -2,7 +2,7 @@
 
 **result文件夹主要用于存放项目运行后的结果**。 
 
-<img width="372" alt="image" src="https://github.com/coder-xinxiaohai/AffectNet-Processing/assets/73678229/e1dadd83-3b69-4c5a-920f-e4f03a15998d">
+![image](https://github.com/coder-xinxiaohai/AffectNet_Processing/assets/73678229/cf1b3214-e279-40d6-bc84-d50dc956cefa)
 
 **aligned_crop_affectnet_imgs**：用于存放经裁剪和对齐后的287401张面部表情图像，其283901张用于训练，3500张用于验证。 
 
