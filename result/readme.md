@@ -3,7 +3,7 @@
 **result文件夹主要用于存放项目运行后的结果**。 
 ![image](https://github.com/coder-xinxiaohai/AffectNet_Processing/assets/73678229/28932810-36a3-43d1-9ed2-9d50d5134da4)
 
-**aligned_crop_affectnet_imgs**：用于存放经裁剪和对齐后的287401张面部表情图像，其283901张用于训练，3500张用于验证。 
+**aligned_crop_affectnet_imgs**：用于存放经对齐和裁剪后的287401张面部表情图像，其283901张用于训练，3500张用于验证。 
 
 **data_affectnet.pkl**：用于存放AffectNet的划分信息，包括训练图像和测试图像的对象信息。 
 
